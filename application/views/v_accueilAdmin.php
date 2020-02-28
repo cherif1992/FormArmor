@@ -1,0 +1,3 @@
+<div id='contenu'>
+	Bienvenue dans la partie administration du site...
+</div>

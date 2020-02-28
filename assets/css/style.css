@@ -1,0 +1,231 @@
+body {
+	background-color: #f5cf75;
+	background-attachment: scroll; 
+}
+
+#conteneur {
+	height: 90%;
+	width: 90%;
+	margin: auto; /* pour centrer la div */
+}
+
+/*---------------------------------------- ########### HEADER ########### ------------------------------------------------*/
+#header{
+	background-repeat: no-repeat;
+	height:15%;
+	border:none;
+}
+
+#header img{
+	border: none;
+}
+/*---------------------------------------- ########### MENU ########### ------------------------------------------------*/
+#menu {
+	width: 100%;
+	height:4%;
+	margin-top:0px;
+}
+
+#sur_menu {
+	width: 100%;
+	height: 85%;
+	background-color: #9aa65f;
+}
+
+#sous_menu {
+	border-bottom:  groove;
+	border-top: groove;
+	width:100%;
+	height:15%;
+	background-color: #dbdbdb;
+}
+
+#partie_gauche
+{
+	position : absolute;
+	left : 5.5%;
+	width : 60%;
+	top : 29.5%;
+	height:56%;
+	background-color: #FFFFFF;
+	text-align : left;
+}
+
+#partie_droite
+{
+	position : absolute;
+	left : 66%;
+	width : 28.5%;
+	top : 29.5%;
+	height : 56%;
+	background-color: #FFFFFF;
+}
+
+/*Mise en forme de tableau dans la div contenu*/
+#contenu.table
+{
+	/*border: medium solid #9AA65F;
+	border-collapse: collapse;*/
+	width: 100%;
+	margin : auto; /*pour centrer horizontalement*/
+}
+
+th
+{
+	font-family: monospace;
+	/*border: thin solid #9AA65F;*/
+	width: 17%;
+	padding: 5px;
+	background-color: #FF7F00;
+	/*background-image: url(sky.jpg);*/
+}
+td
+{
+	font-family: sans-serif;
+	/*border: thin solid #9AA65F;*/
+	width: 17%;
+	padding: 5px;
+	/*text-align: center;*/
+	background-color: #ffffff;
+}
+caption
+{
+	font-family: sans-serif;
+	font-size : 28px;
+}
+
+
+/*Mise en forme des formulaires*/
+form {
+ background-color: #FAFAFA;
+ padding: 10px;
+ width: 98%;
+ height: 93%;
+ }
+label
+{
+	margin-top: 10px;
+	display: block; /*permet de faire un saut de ligne automatique après le label*/
+}
+label.inline{
+	display: inline;
+	margin-right:50px;
+}
+input, textarea, select, option
+{
+	background-color: #FFF3F3;
+}
+input, textarea, select
+{
+	padding: 3px;
+	border: 1px solid #F5C5C5;
+	border-radius: 5px;
+	width: 250px;
+	box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+select
+{
+	margin-top:10px;
+}
+input[type=radio]
+{
+	background-color: transparent;
+	border: none;
+	width: 10px;
+}
+input[type=submit], input[type=reset]
+{
+	width: 140px;
+	margin-left: 5px;
+	box-shadow: 1px 1px 1px #D83F3D;
+	cursor: pointer;
+}
+input:focus, textarea:focus
+{
+	background-color: white;
+}
+input[type=submit]:focus, input[type=reset]:focus
+{
+	background-color: #FFF3F3;
+}
+input[type=submit]:hover, input[type=reset]:hover /*sur passage de la souris*/
+{
+	background-color: #FCDEDE;
+}
+input[type=submit]:active, input[type=reset]:active /*sur bouton gauche enfoncé*/
+{
+	background-color: #FCDEDE;
+	box-shadow: 1px 1px 1px #D83F3D inset;
+}
+
+/*---------------------------------------- ########### CORPS ########### ------------------------------------------------*/
+
+#titre
+{
+	width: 100%;
+	font-family: sans-serif;
+	font-size : 28px;
+	text-align: center;
+}
+#message
+{
+	width: 100%;
+	font-family: sans-serif;
+	font-size : 32px;
+	text-align: center;
+}
+#authentif
+{
+	position : absolute;
+	left : 17%;
+	top : 31%;
+	width: 65%;
+	height:52%;
+	color : #4963D4;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-size : 24px;
+	margin : auto;
+	padding : 6px;
+	/*margin-bottom: 15px;*/
+	-moz-border-radius: 10px 10px 10px 10px; 
+   -webkit-border-radius: 10px 10px 10px 10px; 
+   border-radius: 10px 10px 10px 10px;         
+   -webkit-border-top-left-radius: 10px 10px 10px 10px; /* pour Chrome */ 
+   -webkit-border-top-right-radius: 10px 10px 10px 10px; /* pour Chrome */
+}
+
+/*------------------ Contenu --------------*/
+#contenu {
+	height:100%;
+	width:100%;
+	padding-left: 5px;
+}
+
+#contenu h1 {
+	text-align: center;
+	color: #ed2024
+}
+#contenu h2 {
+	color: #ff4401;
+}
+#contenu h3 {
+	color: #9aa65f
+}
+
+/*----------------------------------- ########### Pied de page ########### -----------------------------------------------*/
+#footer
+{
+	position : absolute;
+	left : 5.5%;
+	top : 84%;
+	width: 89%;
+	background-color: #ffaa01;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	-moz-border-radius: 10px 10px 10px 10px; 
+   -webkit-border-radius: 10px 10px 10px 10px; 
+   border-radius: 10px 10px 10px 10px;         
+   -webkit-border-top-left-radius: 10px 10px 10px 10px; /* pour Chrome */ 
+   -webkit-border-top-right-radius: 10px 10px 10px 10px; /* pour Chrome */
+}
